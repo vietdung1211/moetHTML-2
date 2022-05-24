@@ -1,0 +1,98 @@
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .management {
+        background: #FFFFFF;
+        border: 0.5px solid #F3F3F3;
+        box-sizing: border-box;
+        border-radius: 10px;
+
+        .management-mg {
+            margin: 18px 96px 0 96px;
+
+            .management__img {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 33px;
+            }
+        }
+        .management__infomation {
+            margin-bottom: 40px;
+
+            .management__input {
+                margin-top: 24px;
+                display: flex;
+                justify-content: space-between;
+    
+                .management__input-name {
+                    width: 48%;
+                    position: relative;
+                    span {
+                        font-weight: 500;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #272727;
+                        margin-bottom: 15px;
+                        display: block;
+    
+                    }
+    
+                    input {
+                        width: 100%;
+                        padding: 14px 35px 11px 7px;
+                        background: #FFFFFF;
+                        border: 1px solid #B8BDC6;
+                        box-sizing: border-box;
+                        border-radius: 8px;
+                        height: 48px;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 22px;
+
+                        color: #283446;
+
+    
+                        &::placeholder {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+                            color: #283446;
+                            opacity: 0.5;
+                        }
+                    }
+    
+                    select {
+                        width: 100%;
+                        padding: 14px 45px 11px 7px;
+                        background: #FFFFFF;
+                        border: 1px solid #B8BDC6;
+                        box-sizing: border-box;
+                        border-radius: 8px;
+                        height: 48px;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: #283446;
+                        opacity: 0.5;
+                        -webkit-appearance: none;
+                        position: relative;
+    
+                        option {
+                            font-weight: 400;
+                            font-size: 18px;
+                            line-height: 22px;
+                            color: #283446;
+                            opacity: 0.5;
+                        }
+                    }
+                    img {
+                        position: absolute;
+                        top: 55px;
+                        right: 12px
+                    }
+                }
+            }
+        }
+    }
+}
