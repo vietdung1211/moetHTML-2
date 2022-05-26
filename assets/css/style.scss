@@ -1,0 +1,103 @@
+body {
+    background-color: #000;
+}
+
+.container {
+    background-color: #fff;
+    width: 1339px;
+    height: 687px;
+    margin: 0 auto;
+    border: 0.5px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    .container__avt {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0 30px;
+    }
+
+    .container__content {
+        padding: 0 90px;
+
+        .content__box {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 20px;
+
+            .content__box-input {
+                display: flex;
+                flex-direction: column;
+                width: 48%;
+
+                span.content-text {
+                    font-weight: 500;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #272727;
+                    margin-bottom: 15px;
+                }
+
+                .box-input {
+                    width: 100%;
+                    position: relative;
+
+                    .img-input {
+                        width: 6px;
+                        height: 12px;
+                        width: 15px;
+                        height: 12px;
+                        position: absolute;
+                        top: 40%;
+                        right: 2%;
+                        cursor: pointer;
+                    }
+                }
+
+                .content-input {
+                    background: #FFFFFF;
+                    border: 1px solid #B8BDC6;
+                    box-sizing: border-box;
+                    border-radius: 8px;
+                    height: 48px;
+                    padding: 0 10px;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #283446;
+                    opacity: 0.5;
+                    width: 100%;
+                    -webkit-appearance: none;
+                }
+            }
+        }
+
+        .content__status {
+            display: flex;
+            flex-direction: column;
+
+            .status-text {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: #272727;
+                margin-bottom: 10px;
+            }
+
+            button.status-btn {
+                background: #2EBF34;
+                border: 1px solid #536DFD;
+                box-sizing: border-box;
+                width: 142px;
+                height: 48px;
+                border-radius: 8px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: #FFFFFF;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -1,0 +1,132 @@
+body {
+  background-color: #000;
+}
+
+.container {
+  background-color: #fff;
+  width: 1020px;
+  margin: 0 auto;
+  border: 0.5px solid #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 10px 40px;
+}
+.container .container__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .container__header .container__header-text {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #000000;
+}
+.container .container__content {
+  margin: 25px 0 50px;
+}
+.container .container__content .container__content-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.container .container__content .container__content-box .container__content-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #272727;
+  width: 20%;
+}
+.container .container__content .container__content-box .select-box {
+  width: 50%;
+}
+.container .container__content .container__content-box .select-box-text {
+  padding: 0 5px;
+  width: 50%;
+  height: 40.69px;
+  background: #FFFFFF;
+  border: 1px solid #B8BDC6;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #283446;
+  opacity: 0.5;
+}
+.container .container__content .container__content-box select {
+  padding: 0 5px;
+  width: 50%;
+  height: 40.69px;
+  background: #FFFFFF;
+  border: 1px solid #B8BDC6;
+  border-radius: 8px;
+  -webkit-appearance: none;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #283446;
+  opacity: 0.5;
+}
+.container .container__content .container__content-box select.select-box {
+  background-image: url("/assets/img/btn.svg");
+  background-repeat: no-repeat;
+  background-position-x: 98%;
+  background-position-y: 5px;
+}
+.container .container__content .container__content-box select option {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #283446;
+  opacity: 0.5;
+}
+.container .container__content .container__content-box .container__content-check {
+  width: 30%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #272727;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .container__content .container__content-box .container__content-check input.checkbox {
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  width: 24.87px;
+  height: 26.55px;
+}
+.container .container__footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .container__footer .button-cancel {
+  width: 117.93px;
+  height: 38px;
+  background: #B2B8BC;
+  border: 1px solid #9C8F8F;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #F0F7FC;
+  margin-right: 65px;
+}
+.container .container__footer .button-import {
+  width: 145.05px;
+  height: 38px;
+  background: #0071BB;
+  border: 1px solid #DCDCDC;
+  border-radius: 7px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #F0F7FC;
+}
+
+/*# sourceMappingURL=export.css.map */
