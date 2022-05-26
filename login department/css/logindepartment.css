@@ -1,9 +1,4 @@
 .container {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   display: flex;
 }
 .container .login-logo {
@@ -22,9 +17,12 @@
   background: #FFFFFF;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.container .login-selection .login-selection__list {
-  margin: 295px 66px 0 148px;
+.container .login-selection .login-selection__list .login-selection__list-item {
+  width: 540px;
 }
 .container .login-selection .login-selection__list .login-selection__list-item p {
   font-weight: 700;
@@ -48,6 +46,9 @@
   color: #0007BB;
   border: none;
   margin-bottom: 62px;
+}
+.container .login-selection .login-selection__list .login-selection__list-item button:last-child {
+  margin: 0;
 }
 
 /*# sourceMappingURL=logindepartment.css.map */

@@ -1,17 +1,12 @@
 .container {
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+
     display: flex;
     .login-logo {
         width: 60%;
         height:100vh;
         background: #0071BB;
         display: flex;
-        // border-top-left-radius: 30px;
-        // border-bottom-left-radius: 30px;
+        
         margin: auto;
         .login-logo__img {
             margin: auto;
@@ -24,9 +19,13 @@
         background: #FFFFFF;
         border-top-right-radius: 30px;
         border-bottom-right-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         .login-selection__list {
-            margin: 295px 66px 0 148px;
+            
             .login-selection__list-item {
+                width: 540px;
 
                 p {
                     font-weight: 700;
@@ -51,6 +50,9 @@
                     color: #0007BB;
                     border: none;
                     margin-bottom: 62px;
+                    &:last-child {
+                        margin: 0;
+                    }
                 }
             }
         }
