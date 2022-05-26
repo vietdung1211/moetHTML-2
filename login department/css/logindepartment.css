@@ -1,0 +1,53 @@
+.container {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+.container .login-logo {
+  width: 60%;
+  height: 100vh;
+  background: #0071BB;
+  display: flex;
+  margin: auto;
+}
+.container .login-logo .login-logo__img {
+  margin: auto;
+}
+.container .login-selection {
+  height: 100vh;
+  width: 40%;
+  background: #FFFFFF;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+.container .login-selection .login-selection__list {
+  margin: 295px 66px 0 148px;
+}
+.container .login-selection .login-selection__list .login-selection__list-item p {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 30px;
+  color: #000000;
+  margin-left: 15px;
+}
+.container .login-selection .login-selection__list .login-selection__list-item button {
+  background: #009AFF;
+  border: 1px solid #B8BDC6;
+  border-radius: 15px;
+  width: 100%;
+  height: 69px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+  color: #0007BB;
+  border: none;
+  margin-bottom: 62px;
+}
+
+/*# sourceMappingURL=logindepartment.css.map */
