@@ -1,0 +1,110 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(61, 57, 57, 0.48);
+}
+.overlay .changepassword {
+  position: absolute;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 30px;
+  background-color: #fff;
+  max-width: 792px;
+}
+.overlay .changepassword .changepassword-close {
+  display: flex;
+  justify-content: flex-end;
+}
+.overlay .changepassword .changepassword-close img {
+  margin-top: 21px;
+  margin-right: 18px;
+}
+.overlay .changepassword .changepassword-title {
+  padding-bottom: 45px;
+  border-bottom: 1px solid #6A6A6A;
+}
+.overlay .changepassword .changepassword-title h1 {
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 42px;
+  text-align: center;
+  color: #272727;
+}
+.overlay .changepassword .changepassword-input {
+  margin: 68px 51px 0 51px;
+}
+.overlay .changepassword .changepassword-input .changepassword-input__list {
+  margin-bottom: 25px;
+  position: relative;
+}
+.overlay .changepassword .changepassword-input .changepassword-input__list:last-child {
+  margin-bottom: 0;
+}
+.overlay .changepassword .changepassword-input .changepassword-input__list span {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  display: block;
+  margin-bottom: 12px;
+}
+.overlay .changepassword .changepassword-input .changepassword-input__list input {
+  height: 48px;
+  background: #FFFFFF;
+  border: 1px solid #B8BDC6;
+  border-radius: 8px;
+  padding: 12px 40px 12px 28px;
+  font-size: 18px;
+  width: 100%;
+  outline: none;
+}
+.overlay .changepassword .changepassword-input .changepassword-input__list input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #283446;
+}
+.overlay .changepassword .changepassword-input .changepassword-input__list img {
+  top: 52px;
+  right: 12px;
+  position: absolute;
+}
+.overlay .changepassword .changepassword-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 104px;
+  margin-bottom: 53px;
+}
+.overlay .changepassword .changepassword-button .changepassword-button__destroy {
+  background: #828282;
+  border-radius: 32px;
+  height: 53px;
+  width: 185px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  margin-right: 55px;
+}
+.overlay .changepassword .changepassword-button .changepassword-button__confirm {
+  background: #536DFD;
+  border-radius: 32px;
+  height: 53px;
+  width: 185px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+}
+
+/*# sourceMappingURL=changepass.css.map */
