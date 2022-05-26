@@ -1,0 +1,188 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(130, 130, 130, 0.49);
+  display: flex;
+}
+.overlay .change {
+  background-color: #fff;
+  border-radius: 30px;
+  margin: auto;
+  width: 1088px;
+}
+.overlay .change .change-title {
+  padding: 32px 29px 0 29px;
+}
+.overlay .change .change-title .change-title__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.overlay .change .change-title .change-title__item p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #272727;
+}
+.overlay .change .change-title .change-title__item img {
+  cursor: pointer;
+}
+.overlay .change .change-title .change-title__panagrapt {
+  margin-top: 10px;
+}
+.overlay .change .change-title .change-title__panagrapt p {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 21px;
+  color: #272727;
+}
+.overlay .change .change-title .change-title__input {
+  width: 50%;
+  margin-top: 10px;
+}
+.overlay .change .change-title .change-title__input .change-title__input-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 25px;
+}
+.overlay .change .change-title .change-title__input .change-title__input-item:last-child {
+  margin-bottom: 0;
+}
+.overlay .change .change-title .change-title__input .change-title__input-item span {
+  display: block;
+  width: 65%;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 21px;
+  color: #000000;
+}
+.overlay .change .change-title .change-title__input .change-title__input-item input {
+  background: #FFFFFF;
+  border: 1px solid #B8BDC6;
+  border-radius: 8px;
+  height: 42px;
+  width: 100%;
+  padding: 0 40px 0 12px;
+}
+.overlay .change .change-title .change-title__input .change-title__input-item input:focus {
+  border: none;
+}
+.overlay .change .change-title .change-title__input .change-title__input-item input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #283446;
+}
+.overlay .change .change-title .change-title__input .change-title__input-item img {
+  position: absolute;
+  right: 10px;
+}
+.overlay .change .change-title .change-title__information {
+  margin: 50px 70px 0 70px;
+}
+.overlay .change .change-title .change-title__information .change-title__information-img {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 23px;
+}
+.overlay .change .change-title .change-title__information .change-title__information-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 15px;
+}
+.overlay .change .change-title .change-title__information .change-title__information-list .change-title__information-item {
+  width: 48%;
+}
+.overlay .change .change-title .change-title__information .change-title__information-list .change-title__information-item .change-information__input span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #070606;
+}
+.overlay .change .change-title .change-title__information .change-title__information-list .change-title__information-item .change-information__input input {
+  height: 33px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #B8BDC6;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-top: 5px;
+  color: #283446;
+  padding: 0px 20px 0px 10px;
+}
+.overlay .change .change-title .change-title__information .change-title__information-list .change-title__information-item .change-information__input input:focus {
+  outline: none;
+}
+.overlay .change .change-title .change-title__information .change-title__information-list .change-title__information-item .change-information__input input::placeholder {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #283446;
+}
+.overlay .change .change-title .change-title__information .change-title__information-list .change-title__information-item .change-information__input select {
+  height: 33px;
+  width: 100%;
+  background: #FFFFFF;
+  border: 1px solid #B8BDC6;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-top: 5px;
+  color: #283446;
+  padding: 0px 20px 0px 10px;
+}
+.overlay .change .change-title .change-title__information .change-title__information-list .change-title__information-item .change-information__input select:focus {
+  outline: none;
+}
+.overlay .change .change-title .change-title__information .change-title__information-list .change-title__information-item .change-information__input button {
+  height: 33px;
+  width: 140px;
+  background: #2EBF34;
+  border: 1px solid #536DFD;
+  border-radius: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  cursor: pointer;
+  color: #FFFFFF;
+  margin-top: 5px;
+}
+.overlay .change .change-title .change-title__button {
+  margin-top: 35px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.overlay .change .change-title .change-title__button .change-title__button-destroy {
+  border-radius: 32px;
+  height: 44px;
+  width: 160px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  background: #828282;
+  border: none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.overlay .change .change-title .change-title__button .change-title__button-confirm {
+  background: #536DFD;
+  border-radius: 32px;
+  height: 44px;
+  width: 160px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=change.css.map */
