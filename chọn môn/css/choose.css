@@ -1,0 +1,139 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(61, 57, 57, 0.48);
+}
+.overlay .choose {
+  position: absolute;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 30px;
+  background-color: #fff;
+  max-width: 815px;
+  border: 1px solid #000000;
+  padding: 15px 37px 0 37px;
+}
+.overlay .choose .choose-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.overlay .choose .choose-title p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 30px;
+  color: #000000;
+}
+.overlay .choose .choose-button {
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 15px;
+}
+.overlay .choose .choose-button .all {
+  width: 141px;
+  height: 45px;
+  background: #9AD2F6;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #272727;
+  border: none;
+  cursor: pointer;
+}
+.overlay .choose .choose-button .search {
+  width: 141px;
+  height: 45px;
+  background: #76848D;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.overlay .choose .choose-button .save {
+  width: 141px;
+  height: 45px;
+  background: #0071BB;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.overlay .choose .choose-button .choose-button__input {
+  position: relative;
+}
+.overlay .choose .choose-button .choose-button__input input {
+  width: 141px;
+  height: 45px;
+  background: #FFFFFF;
+  border: 1px solid #272727;
+  border-radius: 8px;
+}
+.overlay .choose .choose-button .choose-button__input img {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+}
+.overlay .choose .choose-button .choose-button__select {
+  padding: 6px 10px 6px 10px;
+  display: flex;
+  align-items: center;
+  width: 141px;
+  height: 45px;
+  border: 1px solid rgba(10, 8, 8, 0.66);
+  border-radius: 8px;
+  gap: 15px;
+  justify-content: center;
+}
+.overlay .choose .choose-button .choose-button__select input {
+  width: 25px;
+  height: 25px;
+  border: 2.75px solid #699BF7;
+}
+.overlay .choose .choose-button .choose-button__select span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+}
+.overlay .choose .choose-table {
+  margin-top: 26px;
+  margin-bottom: 120px;
+}
+.overlay .choose .choose-table table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #8A8A8E;
+}
+.overlay .choose .choose-table table tr th {
+  height: 36px;
+  border: 1px solid #8A8A8E;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  color: #272727;
+}
+.overlay .choose .choose-table table tr td {
+  height: 32px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #283446;
+  border-left: 1px solid #8A8A8E;
+}
+
+/*# sourceMappingURL=choose.css.map */
