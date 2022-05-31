@@ -1,0 +1,104 @@
+body {
+  background-color: #e5e5e5;
+}
+
+.management-text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #070606;
+}
+
+.management-box {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin: 45px 0;
+}
+.management-box .management___btn-add {
+  background: #0071BB;
+  border: 1px solid #DCDCDC;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 10px 22px;
+  margin-right: 40px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.management-box .management___btn-add img.img-btn {
+  margin-right: 10px;
+}
+.management-box .management___btn-filter {
+  background: #D8D8D8;
+  border: 1px solid #272727;
+  border-radius: 7px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  padding: 8px 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.management-box .management___btn-filter img.img-btn {
+  margin-right: 10px;
+}
+
+.container {
+  background-color: #fff;
+  width: 1263.96px;
+  height: 634.05px;
+  margin: 0 auto;
+  border: 0.5px solid #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 53px;
+  padding: 35px 50px;
+}
+.container .container__title {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 25px;
+}
+.container .container__title .container__title-text {
+  text-align: center;
+}
+.container .container___box {
+  overflow-y: auto;
+  height: 500px;
+}
+.container .container___box::-webkit-scrollbar {
+  width: 1px;
+}
+.container .container___box::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.container .container___box::-webkit-scrollbar-thumb {
+  background: #888;
+}
+.container .container__content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 25px 0;
+  border-bottom: 2px solid #D9D9D9;
+}
+.container .container__content .container__title-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .container__content .container__title-text img.img-btn {
+  margin-right: 25px;
+  cursor: pointer;
+}
+.container .container__content .container__title-text img.img-btn:last-child {
+  margin-right: 0;
+}
+
+/*# sourceMappingURL=score-management.css.map */
