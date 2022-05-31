@@ -135,5 +135,9 @@
   color: #283446;
   border-left: 1px solid #8A8A8E;
 }
+.overlay .choose .choose-table table tr td input {
+  width: 15px;
+  height: 15px;
+}
 
 /*# sourceMappingURL=choose.css.map */
