@@ -27,81 +27,117 @@
         .mark-video {
             margin-top: 35px;
             margin-bottom: 34px;
-            img {
-                width: 100%;
+            display: flex;
+            gap: 40px;
+            .mark-video__img {
+                width: 75%;
+                img {
+                    width: 100%;
+                    
+                }
             }
-        }
-
-        .mark-content {
-            background: #D7E3ED;
-            border-radius: 20px;
-            padding: 40px 47px 41px 43px;
-
-            .mark-content__list {
-                display: flex;
-                align-items: center;
-                justify-content: space-evenly;
-
-                .mark-content__item {
-                    background: #FEFEFE;
-                    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
-                    width: 200px;
-                    padding:28px 16px 15px 16px;
-                    .mark-content__item-img {
-                        display:flex;
-                        justify-content:center;
-
+            .mark-video__list {
+                width: 25%;
+                
+                .mark-video__item {
+                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    background: #F0F0F0;
+                    border: 1px solid #D5D2D2;
+                    border-radius: 20px;
+                    margin-bottom: 46px;
+                    &:last-child {
+                        margin-bottom: 0;
                     }
-
-                    .mark-content__item-title {
-                        padding: 16px 9px 12px 9px;
-                        color: #777777;
-                        font-size: 17px;
-                        font-weight: 500;
-                        line-height: 20px;
-                        text-align: center;
-                        border-bottom: 1px solid #AFAFAF;
-
+                    .mark-video__item-content {
+                        padding: 22px 0px 22px 30px;
+                        
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        .mark-video__item-img {
+    
+                            img {
+                                max-width: 70px;
+                                max-height: 82px;
+                                cursor: pointer;
+                            }
+                        }
+                        .mark-video__item-panagrapt {
+                            padding-right: 15px;
+                            padding-left: 15px;
+                            text-align: center;
+                            span {
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 22px;
+                                color: #777;
+                                text-align: center;
+                            }
+                        }
                     }
-
-                    .mark-content__item-down {
+                    .mark-video__dowload {
+                        height: 126px;
+                        width: 90px;
+                        background: #ACB8BF;
+                        border-radius: 19px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        margin-top: 8px;
                         img {
-                            margin-right: 10px;
                             cursor: pointer;
-                        }
-                        span {
-                            color: #0071BB;
-                            cursor: pointer;
-                            font-weight: 500;
-                            font-size: 14px;
-                            line-height: 17px;
                         }
                     }
                 }
             }
+            
         }
+
 
         .mark-information {
             margin-top: 18px;
-            
             border-bottom: 1px solid #898A8D;
             padding-bottom: 23px;
-            h2 {
-                font-weight: 700;
-                font-size: 25px;
-                line-height: 31px;
-                color: #1C4D86;
-                margin-bottom: 9px;
+            .mark-information__author {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 40%;
+                border-bottom: 1px solid #898A8D;
+                padding-bottom: 12px;
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 20px;
+                    line-height: 24px;
+                    color: #3C3C3C;
+                }
+                img {
+                    cursor: pointer;
+                }
             }
-            span {
-                font-weight: 300;
-                font-size: 22px;
-                line-height: 27px;
-                color: rgba(0, 0, 0, 0.7);
+            .mark-information__panagrapt {
+                h2 {
+                    font-weight: 700;
+                    font-size: 25px;
+                    line-height: 31px;
+                    color: #1C4D86;
+                    margin-bottom: 25px;
+                }
+                span {
+                    display: block;
+                    margin-top: 30px;
+                    font-weight: 300;
+                    font-size: 22px;
+                    line-height: 27px;
+                    color: rgba(0, 0, 0, 0.7);
+                }
+
             }
         }
 
@@ -194,6 +230,9 @@
 
         .mark-summary {
             margin-top: 34px;
+            display: flex;
+            align-items: center;
+            gap: 150px;
             
             .mark-summary__check {
                 display: flex;
@@ -205,6 +244,18 @@
                     color: #177DDC;
                     margin-left: 22px;
                 }
+            }
+            .mark-summary__button {
+                width: 160px;
+                height:59px;
+                background: #D9D9D9;
+                border: 1px solid #000000;
+                border-radius: 13px;
+                font-weight: 700;
+                font-size: 23px;
+                line-height: 28px;
+                color: #000000;
+                cursor: pointer;
             }
 
         }
@@ -236,7 +287,7 @@
                         
                         
                         .mark-evaluate__item-name {
-                            width: 30%;
+                            width: 25%;
                             p {
                                 font-weight: 400;
                                 font-size: 20px;
@@ -257,25 +308,26 @@
                             background: #FFC700;
                         }
 
-                        .mark-evaluate__item-musty {
-                            display: flex;
-                            align-items: center;
-                            width: 50%;
-                            gap: 20px;
-                            .div {
-                                width: 18px;
-                                height:18px;
-                                background-color: #D1D1D1;
-                                border: 0.5px solid #979797;
-                                cursor: pointer;
-                            }
+                        // .mark-evaluate__item-musty {
+                        //     display: flex;
+                        //     align-items: center;
+                        //     width: 50%;
+                        //     gap: 20px;
+                        //     .div {
+                        //         width: 18px;
+                        //         height:18px;
+                        //         background-color: #D1D1D1;
+                        //         border: 0.5px solid #979797;
+                        //         cursor: pointer;
+                        //     }
                             
-                        }
+                        // }
                         .mark-evaluate__item-percent {
                             display: flex;
                             align-items: center;
+                            width: 85%;
                             .percent-xl {
-                                width: 164px;
+                                width: 100%;
                                 height: 16px;
                                 background: #C4C4C4;
                                 margin-right: 10px;
@@ -388,8 +440,9 @@
         .mark-button {
             margin-top: 34px;
             display: flex;
-            justify-content: flex-end;
+            justify-content: center;
             margin-bottom: 60px;
+            gap: 20px;
             .mark-button__back {
                 height:64px;
                 width:214px;
@@ -412,7 +465,7 @@
                 background: #536DFD;
                 border-radius: 32px;
                 border: none;
-                margin-left: 18px;
+                
                 span {
                     display: block;
                     font-weight: 700;
