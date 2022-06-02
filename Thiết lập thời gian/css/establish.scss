@@ -1,0 +1,161 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(130, 130, 130, 0.43);
+    .establish {
+        position: absolute;
+        width: 100%;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        border-radius: 30px;
+        background-color: #fff;
+        max-width: 870px;
+        padding: 20px 52px 0 52px;
+        .establish-title {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            p {
+                font-weight: 700;
+                font-size: 30px;
+                line-height: 36px;
+                color: #000000;
+            }
+            img {
+                cursor: pointer;
+            }
+        }
+        .establish-input {
+            display: flex;
+            align-items: center;
+            
+            margin-top: 20px;
+            label {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                width: 19%;
+                color: #272727;
+            }
+            button {
+                width: 137px;
+                height: 48px;
+                border: none;
+                background: #2EBF34;
+                border-radius: 8px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                cursor: pointer;
+                color: #FFFFFF;
+            }
+            select {
+                width: 444px;
+                height: 49px;
+                padding: 12px 0px 12px 16px;
+                outline: none;
+                background: #FFFFFF;
+                border: 1px solid #DCDCDC;
+                border-radius: 7px;
+                option {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 22px;
+
+                    color: #828282;
+                }
+            }
+        }
+        .establish-list {
+            margin-top: 27px;
+            margin-bottom: 16px;
+            span {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                color: #272727;
+            }
+        }
+        .mg {
+            margin-bottom: 0 !important;
+        }
+        .establish-start {
+            display: flex;
+            align-items: center;
+            margin-left: 30px;
+            margin-bottom: 22px;
+            
+            span {
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 22px;
+                width: 16%;
+                color: #272727;
+            }
+            select {
+                background: #FFFFFF;
+                border: 1px solid #DCDCDC;
+                border-radius: 7px;
+                padding: 12px 0 12px 26px;
+                width: 122px;
+                height: 49px;
+                margin-right: 20px;
+                option {
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 22px;
+
+                    color: #828282;
+                }
+            }
+            input {
+                width: 234px;
+                height: 49px;
+                background: #FFFFFF;
+                border: 1px solid #DCDCDC;
+                border-radius: 7px;
+                padding: 12px 12px 12px 38px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                color: #828282;
+            }
+        }
+        .establish-button {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap: 30px;
+            margin-bottom: 27px;
+            .destroy {
+                width: 146px;
+                height: 49px;
+                background: #76848D;
+                border: none;
+                border-radius: 7px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                cursor: pointer;
+                color: #FFFFFF;
+            }
+            .update {
+                width: 146px;
+                height: 49px;
+                background: #0071BB;
+                border: none;
+                border-radius: 7px;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 22px;
+                cursor: pointer;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
